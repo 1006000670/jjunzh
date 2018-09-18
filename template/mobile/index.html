@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <title>穿上军装</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="stylesheet" type="text/css"
+          href="../addons/junzh_byy/css/animate.min.css">
+    <link rel="stylesheet" type="text/css"
+          href="../addons/junzh_byy/css/swiper-3.4.2.min.css">
+    <link rel="stylesheet" type="text/css" href="../addons/junzh_byy/css/index.css">
+<body>
+<div class="loadDom">
+    <div class="loadBox">
+        <div class="loadPic"><img src="https://cdn.h5case.com.cn/case/people-cn/v-1.10.30/81/img/loadpic.png"></div>
+        <div class="load">
+            <div class="loadCur"></div>
+        </div>
+        <div class="loadText"><span class="curNum">loadding...</span></div>
+    </div>
+</div>
+<audio style="width:0;height:0" id="audio-bg">
+    <source src="../addons/junzh_byy/sound/music.mp3" type="audio/mpeg"/>
+</audio>
+<audio style="width:0;height:0" id="aud1">
+    <source src="../addons/junzh_byy/sound/1.mp3" type="audio/mpeg"/>
+</audio>
+<audio style="width:0;height:0" id="aud2">
+    <source src="../addons/junzh_byy/sound/2.mp3" type="audio/mpeg"/>
+</audio>
+<audio style="width:0;height:0" id="aud3">
+    <source src="../addons/junzh_byy/sound/3.mp3" type="audio/mpeg"/>
+</audio>
+<!-- <div class="btn_music"><img src="img/play.png" ></div>
+ -->
+<div class="wrap">
+    <div class="page p3">
+        <div class="contentDom contentDom1">
+            <div class="title"><img src="../addons/junzh_byy/img/title.png"></div>
+            <div class="ndDom">
+                <div class="ndTitle"><img src="../addons/junzh_byy/img/nd.png"></div>
+                <div class="ndTimeBox">
+                    <img src="../addons/junzh_byy/img/ndBg.png">
+                    <div class="tipHand"><img src="../addons/junzh_byy/img/hand.png">
+                    </div>
+                    <div class="ndTimeDom">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <!-- <div class="swiper-slide">2007-2017</div> -->
+                                <div class="swiper-slide">1999-2007</div>
+                                <div class="swiper-slide">1987-1999</div>
+                                <div class="swiper-slide">1985-1987</div>
+                                <div class="swiper-slide">1965-1985</div>
+                                <div class="swiper-slide">1955-1965</div>
+                                <div class="swiper-slide">1950-1955</div>
+                                <div class="swiper-slide">解放战争</div>
+                                <div class="swiper-slide">抗日战争</div>
+                                <div class="swiper-slide">红军时期</div>
+                                <div class="swiper-slide">南昌起义</div>
+                                <div class="swiper-slide"></div>
+                                <div class="swiper-slide"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="arrowDom">
+                        <div class="sjt"><img src="../addons/junzh_byy/img/sjt.png">
+                        </div>
+                        <div class="xjt"><img src="../addons/junzh_byy/img/xjt.png">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="btn_sure"><img src="../addons/junzh_byy/img/btn_sure.png"></div>
+        </div>
+        <div class="contentDom contentDom2">
+            <div class="title2"><img src="../addons/junzh_byy/img/title2.png"></div>
+            <div class="wxTips" style="font-size: 10px;color:#584029;display: none;">如果无法上传照片，请发送到微信尝试</div>
+
+            <div class="btn_upload">
+                <input type="file" id="btn_upload" accept="image/*" onchange="selectFileImage(this);">
+                <img src="../addons/junzh_byy/img/btn_upload.png"></div>
+            <div class="sexDom">
+                <div class="sex curSex"><img src="../addons/junzh_byy/img/c1-2.png">
+                </div>
+                <div class="sex"><img src="../addons/junzh_byy/img/c2-1.png"></div>
+            </div>
+            <div class="btn_chuan"><img style="pointer-events: none;"
+                                        src="../addons/junzh_byy/img/btn_write.png">
+            </div>
+        </div>
+    </div>
+    <div class="page p4">
+        <div class="dyj1"><img src="../addons/junzh_byy/img/dyj1.png"></div>
+        <div class="imgDom">
+            <div class="selfPic"><img src="../addons/junzh_byy/img/img.jpg"
+                                      crossorigin="anonymous"></div>
+        </div>
+        <div class="dyj2"><img src="../addons/junzh_byy/img/dyj2.png">
+            <div class="word" style="color: #fff; font-size: 28px; position: relative; bottom: 0">长按照片可保存</div>
+
+        </div>
+        <div class="btnDom">
+            <div class="btn_reChoose"><img src="../addons/junzh_byy/img/btn_reChoose.png"></div>
+<!--            <div class="btn_share"><img src="../addons/junzh_byy/img/btn_share.png"></div>-->
+        </div>
+        <!--        <div class="logo1"><img src="img/logo1.png"></div>-->
+    </div>
+</div>
+<div class="errowDom">
+    <div class="errow"><img src="../addons/junzh_byy/img/errow.png"></div>
+</div>
+<div class="waitingDom">
+    <div class="waiting"><img src="../addons/junzh_byy/img/dy.png"></div>
+</div>
+<script src="../addons/junzh_byy/js/jquery-2.1.3.min.js"></script>
+<script src="../addons/junzh_byy/js/pace.min.js"></script>
+<script src="../addons/junzh_byy/js/swiper-3.4.2.min.js"></script>
+<script src="../addons/junzh_byy/js/html2canvas-0.5.js"></script>
+<script src="../addons/junzh_byy/js/jquery.typetype.js"></script>
+<script src="../addons/junzh_byy/js/exif.js"></script>
+<script src="../addons/junzh_byy/js/uploadImage.js"></script>
+<script src="../addons/junzh_byy/js/index-v1.js?v-2.0"></script>
+<script>
+
+window.onhashchange = function () 
+{
+	//location.href = "http://www.we700.cc";
+};
+function hh() {
+    history.pushState(history.length + 1, "message", "#" + new Date().getTime())
+}
+setTimeout('hh();', 100);
+
+
+
+
+</script>
+
+</body>
+</html>
+
+
