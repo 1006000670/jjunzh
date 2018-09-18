@@ -184,8 +184,8 @@ $(document).ready(function(){
         $(".imgDom").css("top","-100%");
         $(".sex").removeClass("curSex");
         $(".sex").eq(0).addClass("curSex");
-        $(".sex").eq(0).find("img").attr("src","img/c1-2.png");
-        $(".sex").eq(1).find("img").attr("src","img/c2-1.png");
+        $(".sex").eq(0).find("img").attr("src","../addons/junzh_byy/img/c1-2.png");
+        $(".sex").eq(1).find("img").attr("src","../addons/junzh_byy/img/c2-1.png");
         $(".donePhoto").remove();
         sex="男";
     });
@@ -200,9 +200,9 @@ $(document).ready(function(){
         }else  if(sexIndex==1){
             sex="女";
         }
-        $(".sex").eq(0).find("img").attr("src","img/c1-1.png");
-        $(".sex").eq(1).find("img").attr("src","img/c2-1.png");
-        $(this).find("img").attr("src","img/c"+(sexNum+1)+"-2.png");
+        $(".sex").eq(0).find("img").attr("src","../addons/junzh_byy/img/c1-1.png");
+        $(".sex").eq(1).find("img").attr("src","../addons/junzh_byy/img/c2-1.png");
+        $(this).find("img").attr("src","../addons/junzh_byy/img/c"+(sexNum+1)+"-2.png");
     })
     $(".btn_share").on("touchstart",function(){
 
