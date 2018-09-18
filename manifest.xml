@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://www.we7.cc" versionCode="0.8,1.0">
+	<application setting="true">
+		<name><![CDATA[军姿生成]]></name>
+		<identifie><![CDATA[junzh_byy]]></identifie>
+		<version><![CDATA[7.6.2]]></version>
+		<type><![CDATA[business]]></type>
+		<ability><![CDATA[军姿生成]]></ability>
+		<description><![CDATA[军姿生成]]></description>
+		<author><![CDATA[青岛淘码互联网科技]]></author>
+		<url><![CDATA[https://www.we700.cc]]></url>
+	</application>
+	<platform>
+		<subscribes>
+			<message type="user_get_card" />
+			<message type="user_del_card" />
+			<message type="user_consume_card" />
+		</subscribes>
+		<handles>
+		</handles>
+		<rule embed="false" />
+		<card embed="false" />
+	</platform>
+	<bindings>
+		<cover>
+			<entry title="军姿生成入口" do="index" state="" direct="false" />
+		</cover>
+		<menu>
+		
+			
+		</menu>
+		<profile>
+		</profile>
+	</bindings>
+	<permissions>
+	</permissions>
+	<install></install>
+	<uninstall></uninstall>
+	<upgrade></upgrade>
+</manifest>
